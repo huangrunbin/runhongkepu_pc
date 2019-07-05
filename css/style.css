@@ -110,6 +110,15 @@
 
 .tesu{ border: 1px solid #ccc; background: url(../images/home_bj.png);}
 
+.xiangmu{ width: 1200px; overflow: hidden; margin: 0 auto; }
+
+.xiangmu li{ width: 229px; float: left; height: 300px; margin-right: 92px; margin-top: 60px; border-radius: 3px; cursor: pointer; border: 1px solid #ccc;}
+
+.xiangmu li div{ width: 229px; height: 229px; border-bottom: 1px solid #ccc; }
+
+.xiangmu li div img{ width: 100%; border-radius: 3px 3px 0 0;}
+
+.xiangmu li h3{ width: 100%; line-height: 71px; text-align: center; font-size: 16px; color: #5a5a5a;}
 
 
 

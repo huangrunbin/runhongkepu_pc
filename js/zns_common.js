@@ -32,4 +32,13 @@
  		}
  	});
  	
+ 	//服务项目页面li标签排版
+ 	 var zhi = 0;
+ 	$('.xiangmu').find('li').each(function(){
+        zhi ++;
+        if(zhi%4 == 0){
+        	   $(this).css('float','right').css('margin-right','0');
+        }
+    });
+ 	
  });
