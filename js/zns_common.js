@@ -40,5 +40,16 @@
         	   $(this).css('float','right').css('margin-right','0');
         }
     });
+    
+    //点击页面跳转
+    $('.zonghe').click(function(){
+    	    $(location).attr('href', 'xiangmu.html');
+    });
+    $('.fuwulinian').click(function(){
+      	$(location).attr('href', 'fuwu.html');
+    });
+    $('.lianxifangshi').click(function(){
+    	    $(location).attr('href', 'lianxi.html');
+    });
  	
  });
