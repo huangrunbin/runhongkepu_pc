@@ -1,0 +1,125 @@
+.base{ width: 100%; margin: 0; padding: 0;}
+
+.base_logo{ width: 1200px; height: 110px; margin: 0 auto; line-height: 110px;}
+
+.base_logo img{ float: left; height: 100%;}
+
+.base_logo span{ float: right; color: #5a5a5a; font-size: 16px; font-weight: 400;}
+
+.header{ width: 100%; height: 65px; background: #525252;}
+
+.header_nav{ width: 1200px; height: 65px; margin: 0 auto;}
+
+.header_nav ul{ width: 100%;}
+
+.header_nav ul li{ width: 17%; height: 65px; line-height: 65px; text-align: center; color: #d8d8d8; float: left; cursor:pointer;}
+
+.header_nav ul li:hover ,.nav_on{ background: #f34331;}
+
+.nav_li{ background: #525252;}
+
+.home_banner{ width: 100%; text-align: center;}
+
+.home_banner div{ width: 1200px;}
+
+.home_banner div img{ width: 100%;}
+
+.home_on{ background: #f34331; color: #d8d8d8; position: absolute; margin-top: 279px; width: 128px; height: 33px; border: 0; border-radius: 2px; cursor:pointer;}
+
+.fei{ width: 100%; height: 48px; clear: both;}
+
+.base_di{ width: 100%; padding: 15px 0; clear: both; background: #525252;}
+
+.base_di p{ width: 100%; line-height: 25px; text-align: center; color: #d8d8d8;}
+
+.fuwu,.fuwu ul{ width: 1200px; margin: 0 auto;}
+
+.fuwu ul li{ width: 375px; height: 358px; margin-top: 48px; border: 1px solid #e3e3e3;}
+
+.fuwu_left{ float: left;}
+
+.fuwu_center{ margin-left: 35px; float: left;}
+
+.fuwu_right{ float: right;}
+
+.tu{ width: 100%; text-align: center; padding: 23px 0; }
+
+.fuwu_left h3,.fuwu_center h3,.fuwu_right h3{ width: 100%; font-size: 22px; text-align: center; font-weight: 500; color: #f34331;}
+
+.fuwu_left p,.fuwu_center p,.fuwu_right p{ width: 100%; padding: 15px 0; line-height: 28px; text-align: center; color: #888888;}
+
+.fuwu_on,.fuwuyi_on,.fuwuer_on{ width: 100%; text-align: center; padding: 7px 0;}
+
+.fuwu_on input,.fuwuyi_on input,.fuwuer_on input{ width: 130px; height: 40px; background: #f34331; border: 0; color: #d8d8d8; cursor:pointer;}
+
+.fei_yi{ width: 100%; height: 38px; clear: both;}
+
+.zengjia_h3{ width: 1200px; height: 40px; line-height: 40px; margin: 0 auto; font-size: 22px; color: #f34331;}
+
+.zengjia{ width: 1200px; height: 365px; clear: both; margin: 0 auto; border: 1px solid #e3e3e3; background: url(../images/home_bj.png) no-repeat center;}
+
+.zengjia ul{ width: 100%; height: 365px;}
+
+.zengjia ul li{ height: 365px; width: 50%; float: left;}
+
+.zengjia ul li h3{ width: 80%; height: 40px; line-height: 40px; padding-left: 10%;}
+
+.zengjia ul li p{ width: 80%; line-height: 30px; line-height: 40px; padding-left: 10%;}
+
+.banner_img{ width: 100%;}
+
+.lianxi_title{ width: 1200px; height: 40px; line-height: 50px; font-size: 16px; margin: 0 auto; padding-top: 10px; border-bottom: 1px solid #ccc;}
+
+.lianxi{ width: 1200px; min-height: 300px; margin: 50px auto 0; overflow: hidden; background: url(../images/home_bj.png);}
+
+.lianxi ul{ width: 1200px; overflow: hidden;}
+
+.lianxi ul li{ min-height: 300px; float: left;}
+
+.lian_li{ width: 698px; padding-top: 35px; overflow: hidden;}
+
+.lian_li p{ width: 82%; margin: 0 auto; line-height: 45px;}
+
+.lian_li span{ margin-left: 15px;}
+
+.li_map{ width: 500px;}
+
+.fuwu_zhuti{width: 1200px; min-height: 100px; margin: 45px auto 0px; overflow: hidden;}
+
+.fuwuyi_img{ background: url(../images/fuwuyi.jpg) no-repeat;}
+
+.fuwuer_img{ background: url(../images/fuwuer.jpg) no-repeat right;}
+
+.fuwu_p{ width: 400px; line-height: 65px; float: right; margin: 36px 72px 0 0;}
+
+.fuwu_p_z{ width: 400px; line-height: 55px; margin-top: 30px;}
+
+.fuwu_p_z span{ display: block; text-indent: 9em;}
+
+.gonsi_jianjie{ width: 94%; margin: 0 auto; padding: 10px; line-height: 35px; text-indent: 2em;}
+
+.shuli{ display: block; line-height: 35px; text-align: center;}
+
+.gonsi_jiagou{ width: 100%;}
+
+.gonsi_jiagou li{ float: left; width: 115px; height: 40px; line-height: 40px; text-align: center; cursor: pointer; border: 1px solid #ccc; border-bottom: 0; border-radius: 5px 5px 0 0;}
+
+.jiagou{ display: none;}
+
+.fuwu_rencai{ width: 96%; height: 40px; line-height: 40px; margin: 0 auto;}
+
+.tesu{ border: 1px solid #ccc; background: url(../images/home_bj.png);}
+
+.xiangmu{ width: 1200px; overflow: hidden; margin: 0 auto; }
+
+.xiangmu li{ width: 229px; float: left; height: 300px; margin-right: 92px; margin-top: 60px; border-radius: 3px; cursor: pointer; border: 1px solid #ccc;}
+
+.xiangmu li div{ width: 229px; height: 229px; border-bottom: 1px solid #ccc; }
+
+.xiangmu li div img{ width: 100%; border-radius: 3px 3px 0 0;}
+
+.xiangmu li h3{ width: 100%; line-height: 71px; text-align: center; font-size: 16px; color: #5a5a5a;}
+
+
+
+
