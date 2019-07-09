@@ -14,6 +14,7 @@
 		<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
 		<script src="js/zns_move.js" type="text/javascript"></script>
 		<script src="js/zns_common.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=5NMaYS4LHapyaARjjL1lZLFTo9MclZzv"></script>
 	</head>
 
 	<body>
@@ -28,55 +29,39 @@
 				<img src="images/logo.png" class="login" />
 			</div>
 			<div class="home-banner">
-				<img src="images/home.png" />
+				<img src="images/lianxiwomen.png" />
 			</div>
 			<!--导航结束-->
 
 			<!--内容开始-->
-			<div class="hotm-neiron">
-				<ul>
-					<li>
-						<img src="images/Z1.png"/>
-						<h3>综合管理</h3>
-						<p>安全第一，预防为主，居安思危<br />警钟常鸣，生命至上<br />安全居住</p>
-						<button>查看更多</button>
-					</li>
-					<li>
-						<img src="images/Z2.png" />
-						<h3>服务理念</h3>
-						<p>情系业主，真诚奉献，服务业主<br />追求完善，锐意创新<br />管理规范</p>
-						<button>查看更多</button>
-					</li>
-					<li style="float: right; margin-right: 0;">
-						<img src="images/Z3.png" />
-						<h3>联系方式</h3>
-						<p>情系业主，真诚奉献，服务业主<br />追求完善<br />期待您的联系</p>
-						<button>查看更多</button>
-					</li>
-				</ul>
+			<h3 class="zengjia_h3">联系我们：</h3>
+			<div class="lianxi">
+				<p>
+					<em>公司名称：</em>
+					<span>杭州润荭科普物业管理有限公司</span>
+				</p>
+				<p>
+					<em>公司地址：</em>
+					<span>浙江省杭州市余杭区仁和街道獐山路175号仁合银庭3-2</span>
+				</p>
+				<p>
+					<em>联系电话：</em> &nbsp;
+					<span>前台：0571-8622 8659</span>
+					<span>黄总：15268510856</span>
+					<span>李总：13868089893</span>
+				</p>
+				<p>
+					<em>公司邮编：</em>
+					<span>311107</span>
+					<em>投稿邮箱：</em>
+					<span>huangrunbin_accp@163.com</span>
+				</p>
+				<p>
+					<em>公司官网地址：</em>
+					<span>http://www.runhongkp.com</span>
+				</p>
 			</div>
-			
-			<h3 class="zengjia_h3">润荭科普核心价值观：</h3>
-			<div class="zengjia">
-				<ul>
-					<li>
-						<p>&nbsp;</p>
-						<h3>企业家精神</h3>
-						<p>商业趋势洞察；建立竞争优势；推动执行；营造资源生态</p>
-						<p>&nbsp;</p>
-						<h3>诚信正直</h3>
-						<p>信守承诺；值得信赖；诚信既要意愿、更要能力；<br>低权力距离；底线思维和原则思维</p>
-					</li>
-					<li>
-						<p>&nbsp;</p>
-						<h3>拥抱变化</h3>
-						<p>积极的不满；追求卓越；持续发展自我；持续创新</p>
-						<p>&nbsp;</p>
-						<h3>共生共赢</h3>
-						<p>追求双赢或多赢模式；让利益相关方为目标深度卷入；<br>帮助客户、员工、伙伴成功；<br>团队共同确认目标、分担困难、庆祝胜利</p>
-					</li>
-				</ul>
-			</div>
+			<div id="companyMap" class="map"></div>
 			<!--内容结束-->
 
             <div class="fei"></div>
@@ -105,6 +90,27 @@
 			<!--遮罩层结束-->
 
 		</div>
+		
+		<script type="text/javascript">
+			//百度地图API功能
+			var map = new BMap.Map("companyMap"); // 创建Map实例118.275612,32.098167
+			map.centerAndZoom(new BMap.Point(120.092900, 30.448594), 18); // 初始化地图,设置中心点坐标和地图级别 
+			var point = new BMap.Point(120.092900, 30.448594);
+			var marker = new BMap.Marker(point, 18); // 创建标注    
+			map.addOverlay(marker);
+			//添加地图类型控件
+			map.addControl(new BMap.MapTypeControl({
+				mapTypes: [
+					BMAP_NORMAL_MAP,
+					BMAP_HYBRID_MAP
+				]
+			}));
+			map.setCurrentCity("杭州"); // 设置地图显示的城市 此项是必须设置的
+			map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+			marker.addEventListener("click", function() {
+				alert('润荭科普');
+			});
+		</script>
 
 	</body>
 
