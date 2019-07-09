@@ -46,9 +46,20 @@ $(document).ready(function() {
 		var zhi = $(this).html();
 		if(zhi == '润荭科普首页') {
 			$(location).attr('href', 'index.html');
+		}if(zhi == '关于我们'){
+			$(location).attr('href', 'guanyu.html');
 		}if(zhi == '联系我们'){
 			$(location).attr('href', 'lianxi.html');
 		}
+	});
+	
+	//首页点击事件
+	$('.login').click(function(){
+		$(location).attr('href', 'index.html');
+	});
+	
+	$('.lianxi_on').click(function(){
+		$(location).attr('href', 'lianxi.html');
 	});
 
 });
