@@ -46,6 +46,8 @@ $(document).ready(function() {
 		var zhi = $(this).html();
 		if(zhi == '润荭科普首页') {
 			$(location).attr('href', 'index.html');
+		}if(zhi == '服务理念'){
+			$(location).attr('href', 'fuwu.html');
 		}if(zhi == '关于我们'){
 			$(location).attr('href', 'guanyu.html');
 		}if(zhi == '联系我们'){

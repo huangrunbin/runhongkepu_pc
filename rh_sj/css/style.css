@@ -60,6 +60,14 @@
 
 .map{ width: 750px; height:390px; margin: 0 auto;}
 
+.fuwu{width: 100%; overflow: hidden; margin-top: 50px;}
+
+.left-img{ margin-left: 65px; float: left;}
+
+.fuwu-p{ width: 424px; line-height: 42px; float: left; font-size: 14px; margin-left: 72px;}
+
+.fuwu-p span{ display: block; margin-left: 38px;}
+
 
 
 
