@@ -46,6 +46,8 @@ $(document).ready(function() {
 		var zhi = $(this).html();
 		if(zhi == '润荭科普首页') {
 			$(location).attr('href', 'index.html');
+		}if(zhi == '走进润荭科普'){
+			$(location).attr('href', 'runhongkepu.html');
 		}if(zhi == '服务理念'){
 			$(location).attr('href', 'fuwu.html');
 		}if(zhi == '关于我们'){
@@ -62,6 +64,21 @@ $(document).ready(function() {
 	
 	$('.lianxi_on').click(function(){
 		$(location).attr('href', 'lianxi.html');
+	});
+	
+	//走进润荭科普页面导航切换
+	$('.zou_jin').find('li').click(function(){
+		qie = $(this).html();
+		$('.zou_jin').find('li').css('background','#fff').css('color','#000');
+		$(this).css('background','#F34331').css('color','#fff');
+		var zhi = $(this).html();
+		if(zhi == '公司介绍'){
+			$('.jiesao').show();
+			$('.jiagou').hide();
+		}else{
+			$('.jiagou').show();
+			$('.jiesao').hide();
+		}
 	});
 
 });
