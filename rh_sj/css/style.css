@@ -60,7 +60,7 @@
 
 .map{ width: 750px; height:390px; margin: 0 auto;}
 
-.fuwu{width: 100%; overflow: hidden; margin-top: 50px;}
+.fuwu{ width: 750px; overflow: hidden; margin-top: 50px; margin: 0 auto;}
 
 .left-img{ margin-left: 30px; float: left;}
 
