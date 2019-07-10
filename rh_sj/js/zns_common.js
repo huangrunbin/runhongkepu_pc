@@ -68,6 +68,14 @@ $(document).ready(function() {
 		$(location).attr('href', 'lianxi.html');
 	});
 	
+	$('.zonghe_on').click(function(){
+		$(location).attr('href', 'xiangmu.html');
+	});
+	
+	$('.fuwu_on').click(function(){
+		$(location).attr('href', 'fuwu.html');
+	});
+	
 	//走进润荭科普页面导航切换
 	$('.zou_jin').find('li').click(function(){
 		qie = $(this).html();
