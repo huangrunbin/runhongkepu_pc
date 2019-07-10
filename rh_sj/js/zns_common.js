@@ -46,6 +46,8 @@ $(document).ready(function() {
 		var zhi = $(this).html();
 		if(zhi == '润荭科普首页') {
 			$(location).attr('href', 'index.html');
+		}if(zhi == '项目服务'){
+			$(location).attr('href', 'xiangmu.html');
 		}if(zhi == '走进润荭科普'){
 			$(location).attr('href', 'runhongkepu.html');
 		}if(zhi == '服务理念'){
@@ -80,5 +82,14 @@ $(document).ready(function() {
 			$('.jiesao').hide();
 		}
 	});
+	
+	//服务项目页面li标签排版
+ 	var zhi = 0;
+ 	$('.xiangmu_ul').find('li').each(function(){
+        zhi ++;
+        if(zhi%3 == 0){
+        	   $(this).css('float','right').css('margin-right','0');
+        }
+    });
 
 });
